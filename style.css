@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+}
+.image{
+  width: 100%;
+  display: none;
+}
+
+img{
+  width: 100%;
+}
+button{
+ border: none;
+ padding-top: 2px;
+}
+#previous{
+  position: absolute;
+  left: 0;
+  height: 3rem;
+  width: 2.5rem;background: rgba(218, 211, 211, 0.164);
+}
+#next{
+  position: absolute;
+  right: 0;
+  height: 3rem;
+  width: 2.5rem;background: rgba(218, 211, 211, 0.164);
+}
